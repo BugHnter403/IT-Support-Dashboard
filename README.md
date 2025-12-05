@@ -1,5 +1,3 @@
-🚀 IT Support Dashboard: A modern, React-based control panel for executing system diagnostics and PowerShell maintenance scripts via a Python Flask backend.
-
 # IT Support Dashboard 🛠️
 
 A professional-grade, web-based dashboard designed to streamline IT support tasks. This application provides a modern React UI to trigger powerful PowerShell scripts on a host machine, making system diagnostics, network troubleshooting, and maintenance tasks accessible via a one-click interface.
