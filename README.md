@@ -10,7 +10,6 @@ https://github.com/user-attachments/assets/61bb2eba-8e46-4da5-ae6b-c6ea31b00c49
 
 *   **Modern UI**: Built with **React 19** and **Tailwind CSS** for a clean, dark-mode aesthetic.
 *   **One-Click Execution**: Instantly run complex PowerShell scripts (Flush DNS, Restart Spooler, Check Firewall, etc.).
-*   **Real-Time Feedback**: Visual status indicators (Loading, Success, Error) for every action.
 *   **Categorized Tools**: Organized into System, Network, Maintenance, and User management.
 *   **Python Backend**: Powered by **Flask** to securely handle script execution on the host OS.
 *   **Production Ready**: Error handling and status management built-in.
