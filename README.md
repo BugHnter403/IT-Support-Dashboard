@@ -1,20 +1,70 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🚀 IT Support Dashboard: A modern, React-based control panel for executing system diagnostics and PowerShell maintenance scripts via a Python Flask backend.
 
-# Run and deploy your AI Studio app
+# IT Support Dashboard 🛠️
 
-This contains everything you need to run your app locally.
+A professional-grade, web-based dashboard designed to streamline IT support tasks. This application provides a modern React UI to trigger powerful PowerShell scripts on a host machine, making system diagnostics, network troubleshooting, and maintenance tasks accessible via a one-click interface.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1luRG8cQ7p1n_pxA0P8svWr5-6A7mAlFj
+<img width="1905" height="916" alt="IT Support" src="https://github.com/user-attachments/assets/f045484f-4264-466f-bb67-c2ee88cc1d17" />
 
-## Run Locally
+https://github.com/user-attachments/assets/61bb2eba-8e46-4da5-ae6b-c6ea31b00c49
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+*   **Modern UI**: Built with **React 19** and **Tailwind CSS** for a clean, dark-mode aesthetic.
+*   **One-Click Execution**: Instantly run complex PowerShell scripts (Flush DNS, Restart Spooler, Check Firewall, etc.).
+*   **Real-Time Feedback**: Visual status indicators (Loading, Success, Error) for every action.
+*   **Categorized Tools**: Organized into System, Network, Maintenance, and User management.
+*   **Python Backend**: Powered by **Flask** to securely handle script execution on the host OS.
+*   **Production Ready**: Error handling and status management built-in.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Tech Stack
+
+*   **Frontend**: React (TypeScript), Tailwind CSS, Lucide React (Icons)
+*   **Backend**: Python (Flask)
+*   **Scripting**: PowerShell (.ps1)
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+*   Node.js & npm
+*   Python 3.x
+*   Windows OS (for PowerShell script execution)
+
+### 1. Frontend Setup
+```bash
+# Clone the repository
+git clone https://github.com/BugHnter403/IT-Support-Dashboard
+cd IT-Support-Dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+### 2. Backend Setup
+```bash
+# Run the server
+python app.py
+```
+
+### 📂 Project Structure
+* src/: React frontend code.
+* src/constants.tsx: Configuration for available tools and icons.
+* backend/scripts/: Folder containing the .ps1 PowerShell scripts.
+* backend/app.py: Flask server entry point.
+
+### 👨‍💻 Author
+Firdaus Shaari
+
+[Linkedin](https://www.linkedin.com/notifications/?filter=all)
+
+[Github](https://github.com/BugHnter403)
+
