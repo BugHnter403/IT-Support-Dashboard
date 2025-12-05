@@ -55,25 +55,19 @@ python app.py
 ### 📂 Project Structure
 ```bash
 IT-Support-Dashboard/
-├── App.tsx                         # Main React UI
-├── index.tsx                       # Frontend entry point
-├── index.html                      # Root HTML
-├── vite.config.ts                  # Build configuration
-├── tsconfig.json                   # TypeScript config
-├── package.json                    # Frontend dependencies
-├── metadata.json                   # Dashboard action definitions
-├── constants.tsx                   # Shared constants
-├── types.ts                        # Type definitions
-│
-├── components/                     # UI building blocks
-│   ├── ResourceChart.tsx           # System resource graph
-│   ├── TerminalWindow.tsx          # Terminal-style output window
-│   └── ToolOutput.tsx              # Displays PowerShell script output
-│
-├── services/
-│   └── api.ts                      # API calls to backend (Flask)
-│
-├── scripts/                        # ⚙️ Real IT support tools (PowerShell)
+├── App.tsx                  # Main React component
+├── README.md                # Project documentation
+├── app.py                   # Python backend API server
+├── components/              # Reusable UI components
+│   ├── ResourceChart.tsx
+│   ├── TerminalWindow.tsx
+│   └── ToolOutput.tsx
+├── constants.tsx            # Constants used in the frontend
+├── index.html               # HTML entry point
+├── index.tsx                # React app entry
+├── metadata.json            # Project metadata
+├── package.json             # Frontend dependencies
+├── scripts/                 # PowerShell scripts for IT fixes
 │   ├── Advanced_System_Info.ps1
 │   ├── Check_Internet_Connection.ps1
 │   ├── Clear_Temp_Files.ps1
@@ -91,9 +85,11 @@ IT-Support-Dashboard/
 │   ├── Show_Printer_Status.ps1
 │   ├── Show_System_Uptime.ps1
 │   └── System_Resource_Monitor.ps1
-│
-├── app.py                          # 🧠 Backend API server (Flask) that runs scripts
-├── README.md                       # Repo documentation
+├── services/               # API service for frontend-backend communication
+│   └── api.ts
+├── tsconfig.json            # TypeScript configuration
+├── types.ts                 # Type definitions
+└── vite.config.ts           # Vite configuration
 ```
 
 ### 👨‍💻 Author
