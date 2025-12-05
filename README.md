@@ -54,8 +54,8 @@ python app.py
 ```
 
 ### 📂 Project Structure
-IT-Support-Dashboard/
 ```bash
+IT-Support-Dashboard/
 ├── App.tsx                         # Main React UI
 ├── index.tsx                       # Frontend entry point
 ├── index.html                      # Root HTML
