@@ -54,10 +54,48 @@ python app.py
 ```
 
 ### 📂 Project Structure
-* src/: React frontend code.
-* src/constants.tsx: Configuration for available tools and icons.
-* backend/scripts/: Folder containing the .ps1 PowerShell scripts.
-* backend/app.py: Flask server entry point.
+IT-Support-Dashboard/
+```bash
+├── App.tsx                         # Main React UI
+├── index.tsx                       # Frontend entry point
+├── index.html                      # Root HTML
+├── vite.config.ts                  # Build configuration
+├── tsconfig.json                   # TypeScript config
+├── package.json                    # Frontend dependencies
+├── metadata.json                   # Dashboard action definitions
+├── constants.tsx                   # Shared constants
+├── types.ts                        # Type definitions
+│
+├── components/                     # UI building blocks
+│   ├── ResourceChart.tsx           # System resource graph
+│   ├── TerminalWindow.tsx          # Terminal-style output window
+│   └── ToolOutput.tsx              # Displays PowerShell script output
+│
+├── services/
+│   └── api.ts                      # API calls to backend (Flask)
+│
+├── scripts/                        # ⚙️ Real IT support tools (PowerShell)
+│   ├── Advanced_System_Info.ps1
+│   ├── Check_Internet_Connection.ps1
+│   ├── Clear_Temp_Files.ps1
+│   ├── Find_Large_Files.ps1
+│   ├── Firewall_Quick_Toggle.ps1
+│   ├── Flush_DNS.ps1
+│   ├── List_Local_Admins.ps1
+│   ├── List_Local_Users.ps1
+│   ├── Recently_Modified_Files.ps1
+│   ├── Restart_Network_Adapter.ps1
+│   ├── Restart_Print_Spooler.ps1
+│   ├── Show_Disk_Space.ps1
+│   ├── Show_Event_Log_Errors.ps1
+│   ├── Show_My_IP_Address.ps1
+│   ├── Show_Printer_Status.ps1
+│   ├── Show_System_Uptime.ps1
+│   └── System_Resource_Monitor.ps1
+│
+├── app.py                          # 🧠 Backend API server (Flask) that runs scripts
+├── README.md                       # Repo documentation
+```
 
 ### 👨‍💻 Author
 Firdaus Shaari
