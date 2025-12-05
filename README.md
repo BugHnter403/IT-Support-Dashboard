@@ -99,7 +99,7 @@ IT-Support-Dashboard/
 ### 👨‍💻 Author
 Firdaus Shaari
 
-[Linkedin](https://www.linkedin.com/notifications/?filter=all)
+[Linkedin](https://www.linkedin.com/in/firdaus-s-97b92b207/)
 
 [Github](https://github.com/BugHnter403)
 
